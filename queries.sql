@@ -1,6 +1,3 @@
-
-USE student_management;
-
 -- 1. Show all students
 SELECT *
 FROM student;
@@ -107,3 +104,17 @@ WHERE e.grade = (
     SELECT MAX(grade)
     FROM enrollment
 );
+
+-- Change a student's major
+-- UPDATE student
+-- SET major = 'Data Science'
+-- WHERE student_id = 1;
+
+-- Change a student's grade
+-- UPDATE enrollment
+-- SET grade = 95.00
+-- WHERE student_id = 1 AND course_id = 1;
+
+-- Example of deleting one enrollment
+-- DELETE FROM enrollment
+-- WHERE student_id = 1 AND course_id = 3;
