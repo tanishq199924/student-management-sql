@@ -45,7 +45,7 @@ VALUES
 (8, 4, 94.00),
 (9, 2, 78.50);
 
--- STEP 8: Check that the data was inserted
+-- Check that the data was inserted
 SELECT * FROM student;
 SELECT * FROM course;
 SELECT * FROM enrollment;
