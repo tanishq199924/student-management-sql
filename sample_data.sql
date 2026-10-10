@@ -1,4 +1,4 @@
--- STEP 5: Insert students
+-- Insert students
 INSERT INTO student (first_name, last_name, major, age)
 VALUES
 ('Ali', 'Khan', 'Computer Science', 21),
@@ -12,7 +12,7 @@ VALUES
 ('Leo', 'White', 'Biology', 24),
 ('Zoe', 'Harris', 'Business', 21);
 
--- STEP 6: Insert courses
+-- Insert courses
 INSERT INTO course (course_name, credits)
 VALUES
 ('SQL Basics', 3),
@@ -21,7 +21,7 @@ VALUES
 ('Web Development', 4),
 ('Data Analysis', 3);
 
--- STEP 7: Enroll students and record grades
+-- Enroll students and record grades
 INSERT INTO enrollment (student_id, course_id, grade)
 VALUES
 (1, 1, 88.50),
